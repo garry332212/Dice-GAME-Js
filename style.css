@@ -22,6 +22,21 @@ body {
   justify-content: center;
 }
 
+.info
+{
+  
+  font-weight: 400;
+  height: 100vh;
+  color: rgb(201, 187, 187);
+  font-size: 2vh;
+  position:absolute; 
+}
+.rules{
+  margin-left: 230px;
+  font-weight: bolder;
+}
+
+
 /* LAYOUT */
 main {
   position: relative;
