@@ -18,6 +18,7 @@ const scores =[0,0];
 let currentScore = 0;
 let activePlayer = 0;
 let playing = true;
+ 
 
 
 const switchPlayer = function(){
