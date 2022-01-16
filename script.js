@@ -67,7 +67,7 @@ rollDice.addEventListener('click', function(){
     
 });
 
-//termpoary new game button 
+//temporary new game button 
 newGame.addEventListener('click',function(){
     window.location.reload();
 });
