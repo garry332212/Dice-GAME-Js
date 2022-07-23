@@ -17,26 +17,23 @@ body {
   height: 100vh;
   color: #333;
   /* background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%); */
-  background-image: url("body.jpg");
+  background-image: url('body.jpg');
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.info
-{
-  
+.info {
   font-weight: 400;
   height: 100vh;
   color: rgb(201, 187, 187);
   font-size: 2vh;
-  position:absolute; 
+  position: absolute;
 }
-.rules{
+.rules {
   margin-left: 200px;
   font-weight: bolder;
 }
-
 
 /* LAYOUT */
 main {
@@ -59,7 +56,6 @@ main {
   flex-direction: column;
   align-items: center;
   transition: all 0.75s;
-  
 }
 
 /* ELEMENTS */
@@ -78,7 +74,6 @@ main {
   font-weight: 300;
   color: #cf2727;
   margin-bottom: auto;
-  
 }
 
 .player--active {
@@ -176,13 +171,7 @@ main {
 }
 
 .player--winner {
-
   background-image: linear-gradient(to top left, #111011 0%, #1b1d1c 100%);
-  
-  
-  
-  
-  
 }
 
 .player--winner .name {
@@ -190,8 +179,6 @@ main {
   color: #ffffff;
 }
 
-
-.hidden{
+.hidden {
   display: none;
 }
-
